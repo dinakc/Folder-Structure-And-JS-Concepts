@@ -36,11 +36,21 @@ const App = () => {
 
   return (
     <>
+    <div className='header'>
+      <a href='Home'>Home</a>
+      <a href='Men'>Men</a>
+      <a href='Women'>Women</a>
+      <a href='Cart'>Cart</a>
+    </div>
+    <div className='main'> 
+    <h> Folder Structure and JSConcepts</h>
     <div className='menMap'>{menClothing}</div>
     <div className='arraydesctruct'>{secondClothing}</div>
     <div className='restparam'>{...restClothing}</div>
     <div className='objdestruct'>{glitter}</div>
     <div className='spreadoperator'>{...menClothing}</div>
+    </div>
+    <footer className='footer'> Copyright@2023</footer>
      
     </>
   )
